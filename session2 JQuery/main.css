@@ -1,0 +1,13 @@
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: none;
+}
+
+#top{
+    height: 1px;
+    width: 5px;
+    background-color: black;
+    
+}
