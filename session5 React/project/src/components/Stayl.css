@@ -1,0 +1,44 @@
+.person{
+    width: 300px;
+    height: 400px;
+    background: red;
+    margin: 10px auto;
+    position: relative;
+overflow: hidden;
+display: flex;
+}
+
+.person:hover .person-info {
+  left: 50%;
+}
+
+.person:hover .person-social {
+  top: 0;
+}
+
+.person img  {
+  width: 100%;
+  height: 100%;
+}
+
+.person-info{ 
+  transition: 1s all;
+  transform: translate(-50%);
+  width: 90%;
+  height: 120px;
+  position: absolute;
+  bottom: 5%;
+  left: -50%;
+  background: red;
+}
+
+.person-social{
+  transition: 1s all;
+   transform: translate(-50%);
+   width: 80%;
+  height: 40px;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  background: red;
+} 
