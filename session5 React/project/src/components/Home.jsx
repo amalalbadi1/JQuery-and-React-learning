@@ -28,11 +28,7 @@ export default class Home extends Component {
                 </div>
             </div> */}
      
-{/*     
-    <User title="title1" desc="backend course"/>
-     <User title="title2" desc="frontend  course"/>
-     <User title="title3" desc="backend course"/>
-       */}
+
 
 
 
